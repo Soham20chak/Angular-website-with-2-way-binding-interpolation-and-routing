@@ -1,0 +1,20 @@
+<div class="col d-flex justify-content-center">
+<div class="card" >
+    <div class="card-body">
+        <div class="info">
+            <div>Dr. {{doctor.name}}  of Specialization:<em><b>{{doctor.specialization}}</b></em><br> Qualification: {{doctor.qualification}}<br>
+            Date of Birth:{{doctor.dob}}<br>
+            Phone Number:{{doctor.phoneno}}<br>
+            Email Id:{{doctor.email}}
+            </div>
+            <div class="btn btn-danger" (click)="onClick(doctor)">
+                Remove Availability
+            </div>
+            &nbsp;&nbsp;
+            <div class="btn btn-success" (click)="details(doctor)">
+                Check Doctor Details
+            </div>
+            </div>
+    </div>
+  </div>
+</div>
